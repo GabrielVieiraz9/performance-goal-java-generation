@@ -5,10 +5,10 @@ import menu.model.Produto;
 public interface MenuRepository {
 	
 	//CRUD do Produto
-	public void procurarID(int numero);
+	public void procurarID(int identificacao);
 	public void listarProdutos();
-	public void cadastrar(Produto conta);
-	public void atualizar(Produto conta);
-	public void deletar(int numero);
+	public void cadastrar(Produto produto);
+	public void atualizar(Produto produto);
+	public void deletar(int identificacao);
 	
 }
